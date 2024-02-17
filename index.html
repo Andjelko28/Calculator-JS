@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <script defer src="index.js"></script>
-    <title>Document</title>
+    <title>Calculator</title>
   </head>
   <body>
     <div class="container">
       <div class="display">
-        <div class="secondary-output"></div>
-        <div class="main-output"></div>
+        <div data-output-secondary class="secondary-output"></div>
+        <div data-output-main class="main-output"></div>
       </div>
       <div class="buttons">
         <button data-clear class="btn btn-all-clear">CLEAR</button>
@@ -32,7 +32,7 @@
         <button data-number class="btn btn-numbers">3</button>
         <button data-operators class="btn btn-operators">-</button>
 
-        <button class="btn btn-dot">.</button>
+        <button data-number class="btn btn-dot">.</button>
         <button data-number class="btn btn-numbers">0</button>
         <button data-equal class="btn btn-equal">=</button>
         <button data-operators class="btn btn-operators">+</button>
