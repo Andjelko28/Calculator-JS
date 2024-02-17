@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    width: 35rem;
+    border: 1px solid black;
+    margin: 5em auto;
+    padding: 1.5em;
+    background-color: black;
+}
+
+.display{
+    padding: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.7rem;
+}
+
+.btn{
+    font-size: 3em;
+    color: white;
+    background-color: #585857;
+}
+
+.secondary-output,
+.main-output{
+    font-size: 2em;
+    text-align: right;
+    height: 3rem;
+}
+
+.btn-operators{
+    background-color: rgb(245, 96, 10);
+}
+
+.btn-all-clear {
+    grid-column: 1/3;
+    color: black;
+    background-color: rgb(183, 184, 185);
+}
+
+.btn-delete {
+    grid-column: 3/5;
+    color: black;
+    background-color: rgb(183, 184, 185);
+}
